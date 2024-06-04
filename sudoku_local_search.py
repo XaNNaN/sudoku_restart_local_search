@@ -329,4 +329,5 @@ if __name__ == "__main__":
             if ic.enabled:
                 my_sudoku.show()
         else:
-            print(f"Решение было найдено за {count_iter}")
+            print(f"Решение было найдено за {count_iter} итераций.")
+            my_sudoku.show()
